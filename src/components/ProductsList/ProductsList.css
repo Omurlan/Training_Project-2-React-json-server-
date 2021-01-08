@@ -1,0 +1,30 @@
+.admin-product-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.admin-product-cart {
+    border: 2px solid rgb(243, 243, 243);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.admin-product-cart h3 {
+    font-weight: 400;
+}
+
+.admin-product-button-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-product-button-block button {
+    background-color: rgba(31, 125, 98, 0.432);
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 3px 0;
+    width: 70%;
+}
+

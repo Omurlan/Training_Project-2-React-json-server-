@@ -1,0 +1,59 @@
+.add-product-block {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(232,235,237);
+    box-shadow: 2px 3px 8px 0px rgba(34, 60, 80, 0.2);
+    padding: 10px 10px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.add-product-block input {
+    background-color: rgb(232,235,237);
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.add-product-block select {
+    color: white;
+    background-color: rgb(31,125,99);
+    width: 50%;
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.add-product-block button {
+    background-color: rgb(232,235,237);
+    box-shadow: 2px 3px 8px 0px rgba(34, 60, 80, 0.2);
+    margin: 0 auto;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.1s;
+}
+
+.add-product-block button:focus {
+    outline: none;
+}
+
+.add-product-block button:active {
+    background-color: rgb(202, 202, 202);
+}
+
+.admin-select-block {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and(max-width: 515px) {
+    .admin-select-block {
+        flex-direction: column;
+    }
+}
+

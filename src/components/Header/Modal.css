@@ -1,0 +1,30 @@
+.modal {
+    display: block;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    padding-top: 130px;
+    background-color: rgba(0, 0, 0, 0.384);
+    transform: scale(0);
+}
+
+.modal__content {
+    width: 90%;
+    height: 85%;
+    margin: 0 auto;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.catalog-card img {
+    width: 100%;
+}
+
+.catalog-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal.active {
+    transform: scale(1);
+}

@@ -1,0 +1,40 @@
+.widget-block {
+    font-size: 24px;
+    flex-wrap: wrap;
+}
+
+.first-widget,
+.second-widget {
+    overflow: hidden;
+}
+
+.first-widget img,
+.second-widget img {
+    width: 100%;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.widget-block img:hover {
+    transform: scale(1.1);
+}
+
+.banner {
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.banner img:hover {
+    transform: scale(1.1);
+}
+
+
+.second-widget-block {
+    flex-wrap: wrap;
+    font-size: 24px;
+}

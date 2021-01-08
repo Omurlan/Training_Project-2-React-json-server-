@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700;900&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.cart {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    /* padding: 100px 0;
+    background-color: rgba(245, 245, 245, 0.315); */
+}
+
+.cart h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.product-block {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid rgb(187, 186, 186);
+    background-color: rgb(255, 255, 255);
+}
+
+.cart-info-block {
+    flex-direction: column;
+}
+
+.product-block img {
+    width: 25%;
+}
+
+.product-block h5 {
+    font-weight: 900;
+
+}
+
+.product__count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.count-button-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 15%;
+    border-radius: 5px;
+    background-color: rgb(31,125,99);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.count-button-block button {
+    color: white;
+    background-color: rgb(31,125,99);
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    transition: all 0.2s;
+}
+
+.count-button-block button:hover {
+    background-color: rgb(37, 155, 121);
+}
+
+.count-button-block p {
+    margin: 0;
+}
+
+.product__cost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.cost {
+    font-weight: 600;
+}
+
+.product-block input {
+    display: inline-block;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+.cart h4 {
+    margin-top: 30px;
+    text-align: end;
+}
+
+.delete-from-cart {
+    padding: 8px;
+    width: 10%;
+    background-color: white;
+    border: 2px solid black;
+    transition: all 0.1s;
+}
+
+.delete-from-cart:hover {
+    background-color: black;
+    color: white;
+}
+
+.payment-button {
+    color: white;
+    background-color: rgb(31,125,99);
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 200px;
+
+}
+
+
+@media screen and (max-width: 600px){
+    .cart h3 {
+        text-align: center;
+    }
+    .cart h4 {
+        text-align: center;
+    }
+    .delete-from-cart {
+        display: block;
+        margin: 0 auto;
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 430px){
+    .product-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-block h5 {
+        margin-left: 0;
+    }
+    .product-block img {
+        width: 25%;
+    }
+    .product__count p {
+        margin: 5px;
+    }
+    .product__cost p:first-child {
+        margin: 10px 0 0 0;  
+    }
+    .product__cost p:first-child:after {
+        content: ':';
+        margin: 10px 0;  
+    }
+
+}
+
+
+
